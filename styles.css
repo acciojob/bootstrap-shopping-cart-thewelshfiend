@@ -1,1 +1,65 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f6f5f7 !important;
+}
+
+.block-heading {
+    color: #3b99e0 !important;
+}
+
+#description {
+    font-size: 0.8rem;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.057);
+}
+
+.product {
+    background-color: white;
+    padding-block: 3%;
+}
+
+.product-name {
+    color: #3b99e0 !important;
+    font-weight: 400;
+}
+
+.sub-details {
+    font-size: 0.8rem;
+
+    &>p {
+        margin: 0;
+    }
+}
+
+.product-quantity::before {
+    content: "Quantity:";
+}
+
+.product-price {
+    margin-block: auto;
+}
+
+.summary {
+    border-top: 4px solid #5ea4f3;
+    background-color: #f7fbff;
+}
+
+.costs,
+#total {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding-inline: 33.5% !important;
+    font-weight: 100;
+}
